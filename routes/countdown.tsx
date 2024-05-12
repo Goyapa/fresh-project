@@ -5,6 +5,7 @@ export default function Page() {
     date.setMinutes(date.getMinutes() + 1);
     
     return (
+        
         <p>
             The big event is happening <Countdown target={date.toISOString()} />
         </p>
